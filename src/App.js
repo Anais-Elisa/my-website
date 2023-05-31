@@ -1,16 +1,18 @@
 import React from 'react';
-import Header from './components/Header';
-import About from './components/About';
-import Projects from './components/Projects';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Header from './conponents/Header';
+import About from './conponents/About';
+import Projects from './conponents/Projects';
+import Navbar from  './conponents/Navbar'; 
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <About />
-      <Projects />
-    </div>
+    <main>
+      <Navbar />
+    </main>
+ 
   );
 }
 

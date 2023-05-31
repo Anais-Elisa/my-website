@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
+
 .App {
+  overflow-y: scroll;
   font-family: 'Quicksand', sans-serif;
+  background-color: black;
+  color: rgb(255, 255, 255);
 }
 
